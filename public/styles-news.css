@@ -1,0 +1,456 @@
+body {
+  background: repeating-linear-gradient(
+  to right,
+  #ffe9dc,
+  #ffe9dc 18px,
+  #FFECE0 18px,
+  #FFECE0 33px
+);
+
+  color: #4a1f0f;
+  font-family: YakuHanJPs, 'Open Sans', "Noto Sans JP", "ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+body::-webkit-scrollbar {
+    width: 1em;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #ffaa99;
+}
+
+#box-container {
+  background: #ffffff;
+  height: 100%;
+  width: 40%;
+  border-radius: 5px;
+  padding-top: 15px;
+  margin: 10px auto;
+  text-align: left;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#box-text {
+  position:relative;
+  margin-top: 45px;
+  margin-left: 60px;
+  margin-right: 60px;
+  top: -10px;
+}
+
+.news {
+    font-size: 16px;
+    font-family: YakuHanJPs, 'Open Sans', "Noto Sans JP", "ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
+    color: #4a1f0f;
+}
+
+.red {
+  font-size: 16px;
+  font-family: YakuHanJPs, 'Open Sans', "Noto Sans JP", "ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
+  color: #ae0000;
+}
+
+hr.style-one {
+    border: 0;
+    height: 2px;
+    border-color: #f7f6f4;
+    background-color: #f7f6f4;
+    margin-left: 0px;
+    margin-right: 60px;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+}
+
+  hr.style-three {
+    border: 0;
+    background-color: #fff;
+    border-top: 4px dotted #f6e8ca;
+    padding-bottom: 5px;
+  }
+
+  .small {
+    font-family: YakuHanJP;
+    font-size: 10px;
+    color: #4a1f0f;
+    opacity: 0.5;
+    padding-top: 20px;
+    padding-bottom: 15px;
+  }
+
+  .img-left {
+    flex-direction:
+  }
+
+  .date {
+    font-family: YakuHanMPs, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP", Meiryo, sans-serif;
+    font-size: 14px;
+    font-weight: 550;
+  }
+
+ .corner {
+   width: 15%;
+   height: 15%;
+   padding-bottom: -80px;
+
+ }
+
+ .container * {
+   margin: 0 0 10px;
+   line-height: 1.4;
+ }
+
+ .read {
+  margin-bottom: 16px;
+}
+
+.corner-left {
+  width: 12%;
+  height: 12%;
+  padding-left: 13px;
+  float: left;
+}
+
+.corner-right {
+  width: 12%;
+  height: 12%;
+  padding-right: 13px;
+  float: right;
+}
+
+.read:empty {
+  margin: 0;
+}
+
+hr.style-two {
+    border: 2px;
+    border-color: #f6e8ca;
+    margin: 7px 50px 7px 40px;
+    border-top: double #f6e8ca;
+    border-top-width: 6px;
+    border-bottom-width: 0;
+}
+
+  .article {
+    font-family: YakuHanMPs, 'Lora', "Noto Serif JP", "ヒラギノ明朝 ProN W3", "游明朝 Medium", "Yu Mincho Medium", "游明朝", "Yu Mincho", YuMincho, serif;
+    text-align: center;
+    line-height: 1.4;
+    color: #64311e;
+    padding-bottom: 10px;
+  }
+
+  .article-date {
+    color: #d8a491;
+    font-size: 1.4 rem;
+    display: block;
+    font-family: YakuHanMPs, 'Lora', "Noto Serif JP", "ヒラギノ明朝 ProN W3", "游明朝 Medium", "Yu Mincho Medium", "游明朝", "Yu Mincho", YuMincho, serif;
+    letter-spacing: .05em:
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  .title {
+    font-size: 50px;
+    font-family: YakuHanMPs, Times;
+    font-weight: 400;
+    margin: -30px 0 15px;
+    padding-top: 25px;
+    padding-bottom: 5px;
+  }
+
+  .container-news {
+    line-height: 28px;
+  }
+
+a {
+  color: #945f4b;
+  transition: .3s;
+  display: block;
+}
+a:hover {
+  opacity: 0.6;
+}
+a:visited {
+  color: #63311e;
+}
+
+ .imgnews {
+   max-width: 100%;
+   padding-bottom: 16px;
+ }
+
+ img.sticky {
+   position: fixed;
+   width: 5%;
+   bottom: 0;
+ }
+
+ a.style-one{
+   position: relative;
+   opacity: 1;
+ }
+
+ a.style-one:hover{
+   opacity: 0.8;
+   -webkit-animation: tippo 1s;
+   animation: tippo 1s;
+ }
+
+ @-webkit-keyframes tippo {
+    0%, 100% {bottom: 0px;}
+    50% {bottom: 10px;}
+ }
+
+ @keyframes tippo {
+   0%, 100% {bottom: 0px;}
+   50% {bottom: 10px;}
+ }
+
+ a.links {
+   display: inline;
+   text-decoration: none;
+ }
+
+ a.links2 {
+   display: inline;
+   text-decoration: none;
+   text-align: right;
+ }
+
+ .small-two {
+   font-family: YakuHanJP;
+   font-size: 10px;
+   color: #4a1f0f;
+   opacity: 0.5;
+   padding-bottom: 15px;
+   z-index: 1;
+   text-decoration: none;
+   display: inline-block;
+ }
+
+ hr.style-four {
+   border: 2px solid #f6e8ca;
+   background-color: #fff;
+   margin: 40px 0 40px 0;
+ }
+
+ .backtolist {
+   background-color: #ffaa99;
+   text-decoration: none;
+   color: #fff !important;
+   display: inline-block;
+   line-height: 1.2;
+   border-radius: 4px;
+   margin-top: 5px;
+   padding: 10px;
+ }
+
+ .links2 {
+    font-size: 70%;
+    display: inline-block;
+}
+
+  .songs {
+    opacity: 1;
+    transition: all .2s ease-in-out;
+  }
+
+  .songs:hover {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+
+  .yellow {
+    font-size: 1.6rem;
+    color: #b08018;
+    border-bottom: 1px solid #e9d2a1;
+    padding: 0 0 .7em;
+  }
+
+  .insertbox {
+    display: block;
+    box-sizing: border-box;
+    height: 100&;
+    max-width: 100%;
+
+  }
+
+  .insertimg {
+
+    max-width: 80%;
+    display: block;
+    margin-bottom: 10px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .insertimg-l {
+    float: left;
+    max-width: 320px;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-right: 10px;
+  }
+
+  .inserttext {
+    display: inline-block;
+  }
+
+  .items {
+    color: #b08018;
+    font-size: 17px;
+    margin: 2em 0 .8em;
+    line-height: 1.4;
+    letter-spacing: .05em;
+    font-family: YakuHanJPs, 'Open Sans', Meiryo, sans-serif;
+  }
+
+ @media only screen and (max-width: 1000px) {
+   #box-container {
+     width: 90%
+   }
+
+  #box-text {
+    margin: 45px 18px 0 18px;
+    font-size: 120%;
+    }
+   .article {
+     font-size: 15px;
+   }
+   .article-date {
+     font-size: 70%;
+   }
+
+   .news {
+     font-size: 60%;
+   }
+
+   .container-news {
+     line-height: 22px;
+   }
+   .imgnews {
+   }
+
+   .red {
+     font-size: 13px;
+   }
+   .title {
+     font-size: 40px;
+   }
+   img.sticky {
+     position: fixed;
+     z-index: 2;
+     width: 15%;
+     bottom: 0;
+   }
+
+   .links2 {
+     padding-top: 5px;
+      font-size: 70%;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  .insertimg {
+    max-width: 100%;
+ }
+
+ .items {
+   font-size: 15px;
+ }
+
+ @media only screen and (min-width: 1000px) and (min-height: 1300px) {
+   #box-container {
+     width: 90%
+   }
+
+  #box-text {
+    margin: 45px 20px 0 20px;
+    font-size: 120%;
+    }
+   .article {
+     font-size: 22px;
+   }
+   .article-date {
+     font-size: 70%;
+   }
+
+   .news {
+     font-size: 80%;
+   }
+
+   .container-news {
+     line-height: 22px;
+   }
+   .imgnews {
+   }
+
+   .red {
+     font-size: 13px;
+   }
+   .title {
+     font-size: 50px;
+   }
+   img.sticky {
+     position: fixed;
+     width: 15%;
+     bottom: auto;
+     padding: 160% 05px;
+   }
+
+   .links2 {
+     padding-top: 5px;
+      font-size: 70%;
+  }
+
+ }
+
+
+  @media only screen and (height: 812px) {
+    img.sticky {
+      position: fixed;
+      width: 15%;
+      bottom: auto;
+      padding: 200% 05px;
+    }
+    #box-text {
+      margin: 45px 18px 0 18px;
+      font-size: 120%;
+      }
+
+      .links2 {
+        padding-top: 5px;
+         font-size: 70%;
+     }
+     h1 {
+       font-size: 22px;
+     }
+  }
+
+  @media only screen and (height: 823px) {
+    img.sticky {
+      position: fixed;
+      padding: 182% 05px;
+      }
+      #box-text {
+        margin: 45px 18px 0 18px;
+        font-size: 120%;
+        }
+
+        .links2 {
+          padding-top: 5px;
+           font-size: 70%;
+       }
+
+       h1 {
+         font-size: 22px;
+       }
+    }
