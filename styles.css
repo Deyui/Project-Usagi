@@ -366,6 +366,12 @@ a:visited {
 .dropdown-sf:hover {
   color: #63e68a;
 }
+.dropdown-ami:hover {
+  color: #fabe64;
+}
+.dropdown-cd:hover {
+  color: #60aaf0;
+}
 
 .pagination a:hover:not(.active) {opacity: 0.3; transition: 0.6s;}
 
