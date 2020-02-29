@@ -327,6 +327,15 @@ a:visited {
     font-family: YakuHanJPs, 'Open Sans', Meiryo, sans-serif;
   }
 
+  .red {
+    color: #b81b28 !important;
+    font-family: YakuHanJPs, 'Open Sans', "Noto Sans JP", "ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.8;
+    font-weight: bold;
+    font-size: 100%;
+  }
+
  @media only screen and (max-width: 1000px) {
    #box-container {
      width: 90%
