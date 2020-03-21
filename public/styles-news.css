@@ -290,19 +290,26 @@ a:visited {
     padding: 0 0 .7em;
   }
 
+  .yellow-smol {
+    font-size: 18px;
+    color: #955e4b;
+    border-bottom: 1px solid #e9d2a1;
+    padding: 0 0 .7em;
+  }
+
   .insertbox {
-    display: block;
+    display: flex;
     box-sizing: border-box;
     height: 100&;
     max-width: 100%;
-
   }
 
   .insertimg {
 
     max-width: 80%;
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    margin-top: 10px;
     margin-right: auto;
     margin-left: auto;
   }
@@ -310,12 +317,45 @@ a:visited {
     float: left;
     max-width: 320px;
     display: inline-block;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
+    margin-bottom: 40px;
     margin-right: 10px;
+  }
+
+  .insertimg-2 {
+
+    max-width: 80%;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+  }
+
+  .insertimg-3 {
+
+    display: inline-block;
+    max-width: 80%;
+
+    padding-bottom: 20px;
+    margin-top: 10px;
   }
 
   .inserttext {
     display: inline-block;
+  }
+
+  .preordertext {
+    display: inline;
+    margin-top: 10px;
+    font-size: 110%;
+  }
+
+  .preorderimg {
+    vertical-align: middle;
+    display:inline;
+    float: left;
+    max-width: 40%;
+    margin-right: 5%;
+    margin-left: 7%;
   }
 
   .items {

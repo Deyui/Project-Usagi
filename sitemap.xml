@@ -7,6 +7,18 @@
     <priority>1</priority>
   </url>
   <url>
+    <loc>https://gochiusa-eng.com/news/n08450000.html</loc>
+    <lastmod>2020-03-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://gochiusa-eng.com/news/n00040000.html</loc>
+    <lastmod>2020-03-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://gochiusa-eng.com/news/n08430000.html</loc>
     <lastmod>2020-03-06</lastmod>
     <changefreq>monthly</changefreq>
