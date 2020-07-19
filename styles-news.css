@@ -73,6 +73,12 @@ html {
   color: #ae0000;
 }
 
+.blue {
+  font-size: 16px;
+  font-family: YakuHanJPs, 'Open Sans', "Noto Sans JP", "ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
+  color: #13245e;
+}
+
 hr.style-one {
     border: 0;
     height: 2px;
@@ -368,6 +374,15 @@ a:visited {
     font-family: YakuHanJPs, 'Open Sans', Meiryo, sans-serif;
   }
 
+  .blue {
+    color: #13245e !important;
+    font-family: YakuHanJPs, 'Open Sans', "Noto Sans JP", "ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.8;
+    font-weight: bold;
+    font-size: 100%;
+  }
+
   .red {
     color: #b81b28 !important;
     font-family: YakuHanJPs, 'Open Sans', "Noto Sans JP", "ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
@@ -375,6 +390,21 @@ a:visited {
     line-height: 1.8;
     font-weight: bold;
     font-size: 100%;
+  }
+
+  .gap {
+    display: flex;
+  }
+
+  .right-container {
+    line-height: 2.5;
+    margin-right: 5vw;
+    right: 0;
+  }
+
+  .left-container {
+    line-height: 2.5;
+    left: 0;
   }
 
  @media only screen and (max-width: 1000px) {
@@ -404,6 +434,9 @@ a:visited {
    }
 
    .red {
+     font-size: 13px;
+   }
+   .blue {
      font-size: 13px;
    }
    .title {
@@ -460,6 +493,9 @@ a:visited {
    }
 
    .red {
+     font-size: 13px;
+   }
+   .blue {
      font-size: 13px;
    }
    .title {
