@@ -31,6 +31,16 @@ body::-webkit-scrollbar-thumb {
   border-radius: 10px;
 }
 
+.box-container2 {
+  justify-content: center;
+ overflow: inherit;
+ background: #ffffff;
+ height: 100%;
+ padding-top: 15px;
+ margin: 10px auto;
+ border-radius: 10px;
+}
+
  .right {
    width: 40%;
  }

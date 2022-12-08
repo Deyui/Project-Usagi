@@ -1,0 +1,35 @@
+#highScoresList {
+  list-style: None;
+  padding-left: 0;
+  margin-bottom: 4rem;
+}
+
+.high-score {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.high-score:hover {
+  transform: scale(1.025);
+}
+
+.contHead {
+  font-family: YakuHanMPs, "Averia Serif Libre", "Noto Serif JP", "ヒラギノ明朝 ProN W3", "游明朝 Medium", "Yu Mincho Medium", "游明朝", "Yu Mincho", YuMincho, serif;
+  font-size: 4rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: 40px 0;
+  position: relative;
+  background: url(assets/cont_head.svg) center / contain no-repeat;
+  height: 150px;
+  padding: 60px 0 0;
+  text-align: center;
+}
+
+@media screen and (min-width: 1200px){
+  .contHead {
+    font-size: 7.2rem;
+    height: 238px;
+    padding: 90px 0 0;
+  }
+}

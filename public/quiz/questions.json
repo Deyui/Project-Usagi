@@ -1,0 +1,146 @@
+[
+  {
+    "question": "What is the name of the towns' mascot?",
+    "difficulty": "medium",
+    "choice1": "Tippy",
+    "choice2": "Anko",
+    "choice3": "Kigumin",
+    "choice4": "Beatrice",
+    "answer": 3
+  },
+  {
+    "question": "Which of the following coffee or tea did not inspire a character name?",
+    "difficulty": "easy",
+    "choice1": "Jogmaya",
+    "choice2": "Columbian ",
+    "choice3": "Thé des Alizés",
+    "choice4": "Mandheling Coffee",
+    "answer": 2
+  },
+  {
+    "question": "How many times was Sharo inebriated with coffee?",
+    "difficulty": "easy",
+    "choice1": "1 time",
+    "choice2": "2 times",
+    "choice3": "3 times",
+    "choice4": "4 times",
+    "answer": 4
+  },
+  {
+    "question": "What was the thing that Cocoa mistook as a lion on Chino's wood-carved photo frame?",
+    "difficulty": "easy",
+    "choice1": "Sunflower",
+    "choice2": "Tiger",
+    "choice3": "Dandelions",
+    "choice4": "Sun",
+    "answer": 3
+  },
+  {
+    "question": "How tall is Rize?",
+    "difficulty": "medium",
+    "choice1": "159 cm",
+    "choice2": "160 cm",
+    "choice3": "161 cm",
+    "choice4": "163 cm",
+    "answer": 2
+  },
+  {
+    "question": "Because of whom did Chiya start making strange menú names?",
+    "difficulty": "easy",
+    "choice1": "Aoyama Blue Mountain",
+    "choice2": "Chiya's Grandmother",
+    "choice3": "Kirima Syaro",
+    "choice4": "Chino's Grandfather",
+    "answer": 3
+  },
+  {
+    "question": "In the back cover of Volume 1, who is the character the 2nd from left?",
+    "difficulty": "medium",
+    "choice1": "Cocoa",
+    "choice2": "Chino",
+    "choice3": "Rize",
+    "choice4": "Chiya",
+    "answer": 3
+  },
+  {
+    "question": "In S1 Ep 4, what were Cocoa's score on her Japanese test?",
+    "difficulty": "hard",
+    "choice1": "32",
+    "choice2": "7",
+    "choice3": "18",
+    "choice4": "23",
+    "answer": 3
+  },
+  {
+    "question": "In what order did the characters first appear in the Anime at ANY time?",
+    "difficulty": "hard",
+    "choice1": "Cocoa > Chino > Tippy > Rize > Chiya & Syaro > Maya > Megu",
+    "choice2": "Cocoa > Chino & Tippy > Rize > Chiya > Syaro",
+    "choice3": "Cocoa > Aoyama > Chino & Tippy > Maya > Megu > Chiya & Syaro",
+    "choice4": "Cocoa > Aoyama > Chino & Tippy > Megu > Maya > Syaro > Chiya",
+    "answer": 3
+  },
+  {
+    "question": "Which character does Uchida Maaya voice?",
+    "difficulty": "easy",
+    "choice1": "Kirima Syaro",
+    "choice2": "Jouga Maya",
+    "choice3": "Megu's mom",
+    "choice4": "Chiya Ujimatsu",
+    "answer": 1
+  },
+  {
+    "question": "What is Cocoa's bike called?",
+    "difficulty": "easy",
+    "choice1": "Kigumin",
+    "choice2": "Wild Geese",
+    "choice3": "Tippy",
+    "choice4": "Hoto Bike",
+    "answer": 3
+  },
+  {
+    "question": "What type of rabbit is Tippy?",
+    "difficulty": "easy",
+    "choice1": "Cinnamon",
+    "choice2": "Angora",
+    "choice3": "Kigumin",
+    "choice4": "Tippy",
+    "answer": 2
+  },
+  {
+    "question": "What was the badminton technique called, that Rize taught Chino?",
+    "difficulty": "easy",
+    "choice1": "Jumping serve",
+    "choice2": "Rabbit sevrve",
+    "choice3": "Patriot serve",
+    "choice4": "Coffee serve",
+    "answer": 3
+  },
+  {
+    "question": "From who did Chino receive a present at the Christmas gift exchange?",
+    "difficulty": "medium",
+    "choice1": "Megu",
+    "choice2": "Cocoa",
+    "choice3": "Maya",
+    "choice4": "Chiya",
+    "answer": 3
+  },
+  {
+    "question": "What scene did 'Dear My Sister' leave out from the manga?",
+    "difficulty": "medium",
+    "choice1": "Chiya & Syaro go shopping.",
+    "choice2": "Everyone is making a stuffed rabbit.",
+    "choice3": "Cocoa's mother goes to get medicine.",
+    "choice4": "Cocoa & Chiya forgot to do their homework.",
+    "answer": 4
+  },
+  {
+    "question": "In S2 Ep 12, Cocoa's address can be seen in one of her letters. What is it referencing to?",
+    "difficulty": "medium",
+    "choice1": "Kinema Citrus",
+    "choice2": "White Fox",
+    "choice3": "Hobunsha",
+    "choice4": "production doA",
+    "answer": 1
+  }
+]

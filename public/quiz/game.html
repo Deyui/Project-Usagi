@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Gochiusa Quiz - Play</title>
+  <link rel="stylesheet" href="app.css"/>
+  <link rel="stylesheet" href="game.css"/>
+</head>
+<body>
+  <img id="leftImage" src="assets/deco_side.svg">
+  <img id="rightImage" src="assets/deco_side.svg">
+  <div class="container">
+    <div id="game" class="justify-center flex-column">
+      <div id="hud">
+        <div id="hud-item">
+          <p class="hud-prefix">
+            Question
+          </p>
+          <h1 class="hud-main-text" id="questionCounter">
+          </h1>
+        </div>
+        <div id="hud-item">
+          <p class="hud-prefix">
+            Time
+          </p>
+          <h1 class="hud-main-text" id="countdown">
+
+          </h1>
+        </div>
+        <div id="hud-item">
+          <p class="hud-prefix">
+            Score
+          </p>
+          <h1 class="hud-main-text" id="score">
+            0
+          </h1>
+      </div>
+    </div>
+      <h2 id="question">What is the answer to these questions?</h2>
+      <div class="choice-container" id="pink">
+        <p class="choice-prefix" id="pink1">A</p>
+        <p class="choice-text" data-number="1" id="pink2">Choice 1</p>
+      </div>
+      <div class="choice-container" id="blue">
+        <p class="choice-prefix" id="blue1">B</p>
+        <p class="choice-text" data-number="2" id="blue2">Choice 2</p>
+      </div>
+      <div class="choice-container" id="purple">
+        <p class="choice-prefix" id="purple1">C</p>
+        <p class="choice-text" data-number="3" id="purple2">Choice 3</p>
+      </div>
+      <div class="choice-container" id="green">
+        <p class="choice-prefix" id="green1">D</p>
+        <p class="choice-text" data-number="4" id="green2">Choice 4</p>
+      </div>
+  </div>
+<script type="text/javascript" src="game.js"></script>
+</body>
+</html>

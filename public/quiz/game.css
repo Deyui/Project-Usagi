@@ -1,0 +1,120 @@
+.choice-container {
+  display: flex;
+  margin-bottom: 0.8rem;
+  width: 100%;
+  font-size: 1.8rem;
+
+  border-radius: 10rem;
+}
+
+.choice-text:hover {
+  background-color: #fff !important;
+  transition: all .1s ease;
+}
+
+p#blue2.choice-text:hover {
+  color: #c0d7ff;
+}
+
+p#purple2.choice-text:hover {
+  color: #b9aaed;
+}
+
+p#green2.choice-text:hover {
+  color: #b5eba2;
+}
+
+p#pink2.choice-text:hover {
+  color: #ffc4e1;
+}
+.choice-prefix {
+  /*border-right: 0.2rem solid white;*/
+  border-top-left-radius: 5rem;
+  border-bottom-left-radius: 5rem;
+  padding: 1.5rem 2.5rem;
+  color: white;
+}
+
+.choice-text {
+  width: 100%;
+  padding: 1.5rem;
+  color: white;
+  border-top-left-radius: 5rem;
+  border-bottom-left-radius: 5rem;
+  border-top-right-radius: 5rem;
+  border-bottom-right-radius: 5rem;
+}
+
+#blue {
+  background: #c0d7ff;
+  border: 0.1rem solid #c0d7ff;
+}
+
+#blue1 {
+  background-color: #c0d7ff;
+}
+
+#purple {
+  background: #b9aaed;
+  border: 0.1rem solid #b9aaed;
+}
+
+#purple1 {
+  background-color: #b9aaed;
+}
+
+#green {
+  background: #b5eba2;
+  border: 0.1rem solid #b5eba2;
+}
+
+#green1 {
+  background-color: #b5eba2;
+}
+
+#pink {
+  background: #ffc4e1;
+  border: 0.1rem solid #ffc4e1;
+}
+
+#pink1 {
+  background-color: #ffc4e1;
+}
+
+#question {
+  color: #f4cba2;
+}
+
+
+
+}
+
+.incorrect {
+  color: #ff8597 !important;
+}
+
+.newclass {
+  border: 0.1rem solid #e0e0e0 !important;
+  background-color: #e0e0e0 !important;
+}
+
+
+/* HUD */
+
+#hud {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hud-prefix {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.hud-main-text {
+  text-align: center;
+}
+
+.hud-main-text {
+  font-family: 'Noto Sans JP', sans-serif;
+}
